@@ -6,7 +6,7 @@ function form(name, age){
 			resolve(`Welcome, ${name}. You can vote.`)
 		}
 		else{
-			reject(`Oh sorry ${name}. You aren't old enough`)
+			reject(`Oh sorry ${name}. You aren't old enough.`)
 		}
 			},4000)
 	})
