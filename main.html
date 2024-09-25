@@ -8,9 +8,13 @@
   <body>
     <!-- write the body here -->
 <form onsubmit="validation(event)">
-	  <input id="text" type="name" placeholder="Name" required>
-	 <input id=age type="number" required>
-	<button id="btn" type="submit">Submit</button>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age"><br><br>
+
+        <button type="submit">Submit</button>
     </form>
 	<script type="text/javascript" src="./script.js"></script>
   </body>
